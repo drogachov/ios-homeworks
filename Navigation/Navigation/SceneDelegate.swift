@@ -23,15 +23,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let tabBarControler = UITabBarController()
         window?.rootViewController = tabBarControler
         
+        
         let firstVC = FirstViewController()
         firstVC.view.backgroundColor = .white
+        firstVC.tabBarItem = UITabBarItem(title: "News", image: UIImage.init(systemName: "newspaper"), tag: 0)
         
         let secondVC = SecondViewController()
-        secondVC.view.backgroundColor = .white //.black
+        secondVC.view.backgroundColor = .white
+        secondVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage.init(systemName: "person"), tag: 1)
         
         let firstNavVC = UINavigationController(rootViewController: firstVC)
         
         tabBarControler.viewControllers = [firstNavVC, secondVC]
+
+        
+        }
         
         
         
@@ -66,5 +72,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
-}
 
