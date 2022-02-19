@@ -20,24 +20,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: scene)
         window?.makeKeyAndVisible()
         
-        //feed view
+        //Feed view
         let feedVC = FeedViewController()
-        feedVC.view.backgroundColor = .systemBackground
+        feedVC.view.backgroundColor = .white
         feedVC.tabBarItem = UITabBarItem(title: "News", image: UIImage.init(systemName: "newspaper"), tag: 0)
         
-        //profile view
+        //Profile view
         let profileVC = ProfileViewController()
-        profileVC.view.backgroundColor = .systemBackground
+        profileVC.view.backgroundColor = .white
         profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage.init(systemName: "person"), tag: 1)
         
-        //navigation view
+        //Navigation view
         let firstNavVC = UINavigationController(rootViewController: feedVC)
-        
-        //tab bar controller
+        let secondNavVC = UINavigationController(rootViewController: profileVC)
+
+        //Tab bar controller
         let tabBarControler = UITabBarController()
+        tabBarControler.viewControllers = [firstNavVC, secondNavVC]
         window?.rootViewController = tabBarControler
-        tabBarControler.viewControllers = [firstNavVC, profileVC]
-        
         
         }
         
