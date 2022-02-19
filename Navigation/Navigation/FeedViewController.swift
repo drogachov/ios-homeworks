@@ -12,8 +12,8 @@ class FeedViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let button = UIButton(frame: CGRect(x: 120, y: 100, width: 100, height: 50))
-        button.setTitle("click on me", for: .normal)
+        let button = UIButton(frame: CGRect(x: 160, y: 160, width: 100, height: 50))
+        button.setTitle("Go to Post", for: .normal)
         button.setTitleColor(UIColor.black, for: .normal)
         button.addTarget(self, action: #selector(tap), for: .touchUpInside)
         
@@ -24,6 +24,7 @@ class FeedViewController: ViewController {
     @objc func tap() {
         
         let vc = PostViewController()
+        vc.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(vc, animated: true)
     }
     
