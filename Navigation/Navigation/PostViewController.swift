@@ -11,7 +11,7 @@ class PostViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Post"
+        self.title = News.title
         self.view.backgroundColor = .orange
 
         // Do any additional setup after loading the view.

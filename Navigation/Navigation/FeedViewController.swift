@@ -28,3 +28,10 @@ class FeedViewController: ViewController {
     }
     
         }
+
+struct Post {
+    
+    var title: String
+}
+
+var News = Post(title: "Bitcoin sucks!")
