@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA397A7527C275E6007419DD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA397A7427C275E6007419DD /* InfoViewController.swift */; };
 		BA5E3AD227BEE95A006BB16F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E3AD127BEE95A006BB16F /* FeedViewController.swift */; };
 		BA5E3AD427BEE971006BB16F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E3AD327BEE971006BB16F /* ProfileViewController.swift */; };
 		BA5E3AD627BEEF76006BB16F /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E3AD527BEEF76006BB16F /* PostViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA397A7427C275E6007419DD /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		BA5E3AD127BEE95A006BB16F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BA5E3AD327BEE971006BB16F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BA5E3AD527BEEF76006BB16F /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				BA5E3AD127BEE95A006BB16F /* FeedViewController.swift */,
 				BA5E3AD327BEE971006BB16F /* ProfileViewController.swift */,
 				BA5E3AD527BEEF76006BB16F /* PostViewController.swift */,
+				BA397A7427C275E6007419DD /* InfoViewController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				BA5E3AD627BEEF76006BB16F /* PostViewController.swift in Sources */,
 				BAE6DAEE27BC441600F45236 /* ViewController.swift in Sources */,
 				BAE6DAEA27BC441600F45236 /* AppDelegate.swift in Sources */,
+				BA397A7527C275E6007419DD /* InfoViewController.swift in Sources */,
 				BAE6DAEC27BC441600F45236 /* SceneDelegate.swift in Sources */,
 				BA5E3AD427BEE971006BB16F /* ProfileViewController.swift in Sources */,
 				BA5E3AD227BEE95A006BB16F /* FeedViewController.swift in Sources */,
